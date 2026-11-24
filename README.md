@@ -2,8 +2,6 @@
 
 Numerical simulation of a superconducting transmon qubit, built up step by step in Jupyter notebooks: from the static Hamiltonian, to microwave driving, to shaped control pulses.
 
-![hero figure](figures/hero.png)
-
 ## Contents
 
 | Notebook | Topic |
@@ -135,12 +133,11 @@ Parameters used: $C = 70$ fF, $I_c = 40$ nA, giving $E_C / h = 0.28$ GHz, $E_J /
 - Anharmonicity: -0.31 GHz
 - Agreement with the Duffing approximation: levels 0 and 1 match it closely already at the minimum cutoff (error of 0.1% at N = 5), while higher levels move away from it. This is expected, since the approximation expands the cosine potential only to fourth order in the phase, which is accurate for the lowest levels when $E_J / E_C$ is large but breaks down higher up the well.
 
-![cutoff convergence](figures/01_cutoff_convergence.png)
+<img width="600" height="453" alt="01_cutoff_convergence" src="https://github.com/user-attachments/assets/37c46a2c-8cf9-4f91-82d1-bbbac220544f" />
 
-![charge dispersion](figures/01_charge_dispersion.png)
+<img width="578" height="433" alt="01_charge_dispersion" src="https://github.com/user-attachments/assets/c0a555bd-e629-4e24-8db1-584249ca6bef" />
 
-![anharmonicity](figures/01_anharmonicity.png)
-
+<img width="579" height="438" alt="01_anharmonicity" src="https://github.com/user-attachments/assets/2069a486-73e6-4f5a-bfa8-aad06aad7d96" />
 
 ## 2. Microwave drive and Rabi oscillations
 
@@ -219,10 +216,9 @@ P_1(t)
 - Maximum leakage out of the {0, 1} subspace: 0.0003 (at $n_g^{(\mathrm{ac})} = 0.001$)
 - Drive detuned to 1.2 times the 0-1 frequency: level 1 population stays below 5e-6.
 
-![resonant drive populations](figures/02_populations.png)
+<img width="567" height="453" alt="02_populations" src="https://github.com/user-attachments/assets/72392926-572d-4331-ad87-22a0f63cf02a" />
 
-![amplitude scan](figures/02_amplitude_scan.png)
-
+<img width="567" height="453" alt="02_amplitude_scan" src="https://github.com/user-attachments/assets/caee84b2-585b-4bc4-8699-986758d9497f" />
 
 ## 3. Gaussian pulse
 
@@ -274,7 +270,8 @@ and the relative phase between the two qubit levels is evaluated in the frame ro
 - Final populations $P_0$ and $P_1$: 0.0001 and 0.9999
 - Final leakage: 4e-7
 - Rotating-frame phase: 0.009
-- Population plot included at the top
+
+<img width="624" height="483" alt="hero" src="https://github.com/user-attachments/assets/aaa755d2-6b02-4d49-9086-519510d4fd19" />
 
 
 ## Validation
