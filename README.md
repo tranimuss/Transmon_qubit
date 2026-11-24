@@ -2,7 +2,7 @@
 
 Numerical simulation of a superconducting transmon qubit, built up step by step in Jupyter notebooks: from the static Hamiltonian, to microwave driving, to shaped control pulses.
 
-![hero figure](figures/hero.png)
+<img width="624" height="483" alt="hero" src="https://github.com/user-attachments/assets/833a1750-7bc0-4f52-9d8b-1990ba6c6385" />
 
 ## Contents
 
@@ -136,11 +136,11 @@ Parameters used: C = 70 fF, I_c = 40 nA, giving E_C / h = 0.28 GHz, E_J / h = 19
 - Anharmonicity: 0.31 GHz
 - Charge-basis cutoff: level 0 and 1 energies converge with minimum cutoff (error of 0.1% at N=5), while levels after 2 start to deviate with higher accuracy.
 
-![cutoff convergence](figures/01_cutoff_convergence.png)
+<img width="600" height="453" alt="01_cutoff_convergence" src="https://github.com/user-attachments/assets/9e69bd37-7307-40f4-bf4e-7a1f2fa47eeb" />
 
-![charge dispersion](figures/01_charge_dispersion.png)
+<img width="578" height="433" alt="01_charge_dispersion" src="https://github.com/user-attachments/assets/ac0f80a2-b739-4137-b3ab-8dbaafd95691" />
 
-![anharmonicity](figures/01_anharmonicity.png)
+<img width="579" height="438" alt="01_anharmonicity" src="https://github.com/user-attachments/assets/8fc944fb-184d-4691-8c9f-3323c1811896" />
 
 ---
 
@@ -221,9 +221,9 @@ $$
 - Maximum leakage out of the {0, 1} subspace: 0.0003 (at n_g^(ac) = 0.001)
 - Drive detuned to 1.2 times the 0-1 frequency: level 1 population stays below 5e-6.
 
-![resonant drive populations](figures/02_populations.png)
+<img width="567" height="453" alt="02_populations" src="https://github.com/user-attachments/assets/58922fb5-c555-4735-b55e-73729a0faf9a" />
 
-![amplitude scan](figures/02_amplitude_scan.png)
+<img width="567" height="453" alt="02_amplitude_scan" src="https://github.com/user-attachments/assets/f5ab31e7-e21f-421b-9de7-d38887c12e46" />
 
 ---
 
